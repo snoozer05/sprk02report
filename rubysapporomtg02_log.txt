@@ -956,56 +956,22 @@ View側では、キャッシュを更新するときだけ、コールバック�
 利用してみてはいかがでしょうか。
 http://github.com/kwatch/merb_piece_cache
 
+
+
 ▼「JRuby最新事情＠札幌」(高井直人 - Akasaka.rb)
 http://www.flickr.com/photos/recompile_net/sets/72157622945886046/
 http://recompile.net/archives/51282332.html
 
-はじめに
-　Rubyist写真家
-　北海道と私
-    青函博のときに函館を訪問（11歳）
-    義母が富良野出身
+高井さんはRubyist写真家と名乗ろうかと考えているようで、Rubyist写真家とは「動物写真家と同じ、Rubyistを撮る写真家」（ここで会場は笑いの渦に）高井さん自身は青函博のときに函館を訪問していることや、祖母が富良野出身とのことで北海道との縁をお話してくださいました．まずjRubyとは、Javaで実装されたRuby処理系で最新バージョンは1.4.0/MRI 1.8.7互換というもので、JavaのクラスをRubyで呼び出せるなど非常に面白いものです．Java統合機能、JavaHotSpotVMによる高い処理性能をもちます．
+起動が遅いため現在あがっている高速化手法としては、スプラッシュウィンドウを表示し体感を速度を向上させる（会場笑いの渦）
+Java統合機能としては、Javaのライブラリの呼び出しSwingの利用などがあげられる．
+Javaへの埋め込みについてのお話でLT時間が終了となってしまいました．
+Ruby,Javaを一緒に使える、速度もRuby1.8.7とjRuby1.4ではjRubyの方が速いとのことなので、Rubyに限らずjRuby、Rubyのその他の処理系も利用してみてはどうでしょうか
 
-JRubyとは
-　javaで実装されたRuby処理系
-　最新バージョンは1.4.0/MRI 1.8.7互換
 
-Engine Yard社が開発を支援
-　Thomas Enebo
-  Charles Oliver Nutter
-特徴
-　Java統合機能
-　Java HotSpot VMによる高い処理性能
 
-性能　ヒルベルト行列の計算時間
-処理速度が若干遅い
 
-jruby 1.5.0.devで提案されている高速化手法（デモ）
 
-Java統合機能
- Javaのライブラリの呼び出し
-  Rubyから容易に利用できるように工夫
- Javaクラスの拡張
-  継承、オープンクラスなど
-	1.4.0ではjava_sendやjava_aliasなどが追加
-
-Swingの利用
-
-Javaへの埋め込み
- 1.4.0から標準添付
-  RedBridgeプロジェクトの成果を取り込み
-	原田洋子氏がメンテナとしてコミッタ入り
- 複数APIを提供
-  コア(ScriptingContainer)
-	JSR 223:Scripting for the Java Platform
-	Jakarta BSF(Bean Scripting Framework)
-
-JSR 223
-
-FFI:Foreign Function Interface
- POSIX関連APIのために取り込み
- 内部ではJNAライブラリを利用
-	
 ▼「そろそろカバレッジについてひとこと言っておくか - アンド・なう」(和田 卓人 - タワーズ・クエスト株式会社)
 
 RubyConf09に言ってきて、空気を感じてきた和田さんのお話です。より良い設計とは何かとかそういことについて議論
