@@ -126,9 +126,6 @@ RubyのTimeクラスは2038年1月19日までしか表現できない場合が�
 で扱えるようにすることによってこの問題を解決した。 この際、OS が提供していないタイムゾーン情報・夏時
 間情報を推測する必要がある。 この解決によって Time クラスをより広い用途に利用できるようになった。
 
-動画
-http://www.ustream.tv/recorded/2714925
-
 ＜log＞
 ▼概要
 Ruby1.9.2でTimeクラスの制約が緩和
@@ -419,7 +416,6 @@ p t2 #=> 2009-12-04 19:00:00 -0800　　カリフォルニア周辺
 　　対応することが社会的にはコストがかかってよくないだろう。
 
 !! ライトニングトークス
-TODO USTREAM http://www.ustream.tv/recorded/2715246
 
 !!! 「僕たちがSAMITを続ける理由(仮)」(hokkai7go & onodes - (LOCAL学生部 | SAMIT))
 TODO:onodes担当
@@ -439,8 +435,6 @@ TODO:onodes担当
 
 !!! 「田舎Ruby親方で元エンドユーザの自分が目指すこと」(片平裕市 - Rails勉強会＠東北)
 スライド
-http://d.hatena.ne.jp/yuichi_katahira/20091205
-
 [[RubyKaigi2009|http://rubykaigi.org/2009/ja]]で開かれた田舎Ruby親方会議に参加された片平さんが、続「田舎Ruby親方会議」「儲かるRuby」という内容でお話されました。
 
 田舎Ruby親方の定義　地方でRubyで仕事をしている個人事業者、小規模の法人経営者
